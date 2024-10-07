@@ -121,6 +121,7 @@ const styles = StyleSheet.create({
   },
   card: {
     margin: 10,
+    marginTop: 0,
     backgroundColor: "white",
     borderRadius: 8,
     shadowColor: "#000",

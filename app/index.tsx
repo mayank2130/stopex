@@ -1,11 +1,12 @@
-import { StyleSheet, Text, View } from "react-native";
+import { SafeAreaView, StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { RestaurantList } from "@/components/RestaurantList";
+import Menu from "@/components/Menu";
 
 const Home = () => {
   return (
     <>
-      <RestaurantList />
+        <Menu />
     </>
   );
 };
